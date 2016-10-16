@@ -1,6 +1,6 @@
 import { Toast } from './toast';
 import { ToastOptions } from './toast-options';
-import { DomSanitizer } from '@angular/platform-browser';
+import { DomSanitizationService } from '@angular/platform-browser';
 export declare class ToastContainer {
     private sanitizer;
     position: string;
